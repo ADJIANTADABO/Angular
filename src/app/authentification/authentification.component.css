@@ -1,0 +1,198 @@
+/* style général */
+body {
+    background-color: #F5F5F5;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  h4 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #62b1ff;
+  }
+  
+  a: hover {
+    color: #5599B7;
+    text-decoration: none;
+  }
+  
+  #logo {
+    height: 40px;
+  }
+  
+  #navbar {
+    padding: 10px;
+    background-color: #0077b5;
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+    color: #F5F5F5;
+  }
+  
+  #navbar a {
+    margin-left: 20px;
+  }
+  
+  #searchfield {
+    display: flex;
+    flex-direction : row-reverse;
+    align-items:  flex-start;
+  }
+  
+  #underbar {display: flex;
+    justify-content: space-around;
+  }
+  
+  /* banner */
+  
+  .banner {
+    background-image: linear-gradient(0deg, rgba(0, 118, 180, 0.45)0%, rgba(245, 245, 245, 0.6)100%),url('https://png.pngtree.com/thumb_back/fh260/back_pic/05/14/39/5659a64bb3f1e0d.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 20px 20px 150px 20px;
+    min-height: 300px;
+  
+  }
+  
+  .banner-content {
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 1.2px;
+    font-size: 40px;
+  }
+  
+  .banner p {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+    letter-spacing: 1.1px;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* section 4 colonnes */
+  
+  #secteur {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  #secteur h2 {
+    color: #62b1ff;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+  }
+  
+  #secteur p {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #9999a5;
+    max-width: 250px;
+  }
+  
+  .concept-picture {
+    height: 230px;
+    max-width: 230px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(44, 64, 75, 0.5);
+  }
+  
+  .concept-card {
+    padding: 40px;
+  
+  }
+  
+  
+  .content {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 35px;
+    color: white;
+    text-align: justify;
+  
+  }
+  
+  
+  #entreprises {
+    background-image: linear-gradient(90deg, rgba(0, 118, 180, 0.7)0%, rgba(200, 200, 200, 0.7)100%),url(https://images.pexels.com/photos/442577/pexels-photo-442577.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+   color: #fff;
+  background-color: #474747;
+  text-shadow: #fff 0 0 10px;
+  box-shadow: 10px 10px 10px rgba(44, 64, 75, 0.5);
+  }
+  
+  
+  #qui {
+    background-image: linear-gradient(90deg, rgba(0, 118, 180, 0.7)0%, rgba(200, 200, 200, 0.7)100%),url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #474747;
+    text-shadow: #fff 0 0 10px;
+    box-shadow: 10px 10px 10px rgba(44, 64, 75, 0.5);
+  }
+  
+  #comment {
+    background-image: linear-gradient(90deg, rgba(0, 118, 180, 0.7)0%, rgba(200, 200, 200, 0.7)100%),url(https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #474747;
+    text-shadow: #fff 0 0 10px;
+    box-shadow: 10px 10px 10px rgba(44, 64, 75, 0.5);
+  }
+  
+  #contact {
+    background-image: linear-gradient(90deg, rgba(0, 118, 180, 0.7)0%, rgba(200, 200, 200, 0.7)100%),url(https://images.pexels.com/photos/261681/pexels-photo-261681.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+    color: #fff;
+    background-color: #474747;
+    text-shadow: #fff 0 0 10px;
+    box-shadow: 10px 10px 10px rgba(44, 64, 75, 0.5);
+  }
+  
+  /* inscription newsletter */
+  #newsletter {
+    background-color: #bbbbbb;
+    min-height: 150px;
+  }
+  
+  /* footer*/
+  
+  .footer {
+    background-color: #252525;
+    color: #9999a5;
+    height: 200px;
+    padding: 50px;
+  }
+  
+  .footer p {
+    color: #9999a5;
+    font-size: 14px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #b994f8;
+    border-color: #b994f8;
+  }
+  
